@@ -7,6 +7,7 @@ This project analyzes climate trends using historical temperature data (1972–2
 - Diurnal temperature difference (TMAX - TMIN) analysis
 - Data processing with PySpark
 - Visualizations using matplotlib/seaborn
+- A small sample of a very large dataset has been attached in the data folder
 
 ## Folder Structure
 - `main.ipynb`: Core analysis notebook
