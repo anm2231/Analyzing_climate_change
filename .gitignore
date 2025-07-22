@@ -1,28 +1,28 @@
-# Ignore Python cache files
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*.so
 
-# Ignore Jupyter notebook checkpoints
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore virtual environments
-venv/
-env/
+# Spark & Hadoop logs
+*.log
+*.out
 
-# Ignore system files
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# System files
 .DS_Store
 Thumbs.db
 
-# Ignore output and logs
-output_data/
-artifacts/
-*.log
-
-# Ignore temporary files
+# Large raw datasets (already removed)
+gncnd_*
 *.tar.gz
 *.zip
+*.gz
 
-# VS Code settings (optional)
-.vscode/
